@@ -1,7 +1,7 @@
 'use client'
 import ShareButton from "@/components/ui/share-button";
 import WrapButton from "@/components/ui/wrap-button";
-import { Twitter, Globe, LandPlot, Banana } from "lucide-react";
+import { Twitter, Globe, LandPlot, Banana, Cloud } from "lucide-react";
 import React, { use } from "react";
 
 const Page = () => {
@@ -27,7 +27,7 @@ const Page = () => {
         <Globe className="animate-spin" />
         Explore Now
       </WrapButton>
-      <ShareButton links={[{icon: Twitter}, {icon: Banana}, {icon: LandPlot}]}>Share</ShareButton>
+      <ShareButton links={[{icon: Twitter}, {icon: Banana},{icon:Cloud}, {icon: LandPlot}]}>Share</ShareButton>
     </div>
   );
 };
